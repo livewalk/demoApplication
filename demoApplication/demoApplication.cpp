@@ -18,12 +18,12 @@ int main()
 	testInt = 5;
 	sortThisVector.push_back(testInt);
 
-	cout << "sdrf2q35r dsf sefdfsdf: " << endl;
+	cout << "Unsorted list: " << endl;
 	mySorter.printVector(sortThisVector);
 
 	mySorter.bubbleSort(sortThisVector);
 
-	cout <<"fsdfsdfsdfsdfdsf: " << endl;
+	cout <<"Sorted list: " << endl;
 	mySorter.printVector(sortThisVector);
 
 	//add a call to mySorter.farewell() below this line
